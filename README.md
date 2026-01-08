@@ -16,47 +16,60 @@ Behave (BDD framework)
 
 
 
+\## Installation
+
+
+
+1\. Clone the repository:
+
+
+
+```bash
+
+git clone https://github.com/Nithin3076/yuno-payment-automation.git
+
+cd yuno-payment-automation
 
 
 
 
 
-
-\## Overview of Scenarios
-
-
-
-\### Purchase
-
-\- Minimal fields (Sanity, Regression)
-
-\- Maximal fields (Regression, Integration)
-
-\- Invalid card (Negative, Regression)
+\\## Overview of Scenarios
 
 
 
-\### Authorization
+\\### Purchase
 
-\- Minimal fields (Sanity)
+\\- Minimal fields (Sanity, Regression)
 
-\- Maximal fields (Regression)
+\\- Maximal fields (Regression, Integration)
 
-\- Invalid amount (Negative, Regression)
-
-
-
-\### Refund
-
-\- Full refund (Regression)
-
-\- Invalid payment id (Negative, Regression)
+\\- Invalid card (Negative, Regression)
 
 
 
-\### Verify
+\\### Authorization
 
-\- Valid card (Sanity, Regression)
+\\- Minimal fields (Sanity)
 
-\- Invalid card (Negative, Regression)
+\\- Maximal fields (Regression)
+
+\\- Invalid amount (Negative, Regression)
+
+
+
+\\### Refund
+
+\\- Full refund (Regression)
+
+\\- Invalid payment id (Negative, Regression)
+
+
+
+\\### Verify
+
+\\- Valid card (Sanity, Regression)
+
+\\- Invalid card (Negative, Regression)
+
 
