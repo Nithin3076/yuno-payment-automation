@@ -14,3 +14,49 @@ Python 3.10+
 
 Behave (BDD framework)
 
+
+
+
+
+
+
+
+
+\## Overview of Scenarios
+
+
+
+\### Purchase
+
+\- Minimal fields (Sanity, Regression)
+
+\- Maximal fields (Regression, Integration)
+
+\- Invalid card (Negative, Regression)
+
+
+
+\### Authorization
+
+\- Minimal fields (Sanity)
+
+\- Maximal fields (Regression)
+
+\- Invalid amount (Negative, Regression)
+
+
+
+\### Refund
+
+\- Full refund (Regression)
+
+\- Invalid payment id (Negative, Regression)
+
+
+
+\### Verify
+
+\- Valid card (Sanity, Regression)
+
+\- Invalid card (Negative, Regression)
+
